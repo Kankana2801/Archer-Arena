@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #172033;
+	color: white;
+	font-family: Arial,sans-serif;
+	text-align: center;
+	padding: 25px;
+}
+h1{
+	color: #ffd166;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+}
+.game-info{
+	display: flex;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto 12px;
+	font-size: 18px;
+}
+#gameCanvas{
+	display: block;
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+	background: #b9e5f5;
+	border: 4px solid white;
+	border-radius: 10px;
+}
+.instructions{
+	margin: 15px;
+	color: #dce5f5;
+}
+button{
+	padding: 12px 25px;
+	border: none;
+	border-radius: 8px;
+	background: #ffd166;
+	color: #172033;
+	font-size: 16px;
+	font-weight: bold;
+	cursor:pointer;
+}
+button:hover{
+	background:#ffb703;
+}
+/* Health bar */
+
+.health-container {
+    width: 180px;
+    height: 15px;
+    background: #555;
+    border-radius: 10px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.health-bar {
+    width: 100%;
+    height: 100%;
+    background: #22c55e;
+    transition: width 0.3s;
+}
+
+/* Game message */
+
+#gameMessage {
+    color: #ffd166;
+    margin: 15px;
+    font-size: 25px;
+}
